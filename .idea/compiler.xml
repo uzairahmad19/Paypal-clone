@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="transaction-service" />
+        <module name="user-service" />
+        <module name="service-discovery" />
+        <module name="wallet-service" />
+        <module name="notification-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gatway" target="17" />
+      <module name="Paypal-clone" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="" />
+      <module name="api-gatway" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
+      <module name="service-discovery" options="" />
+      <module name="transaction-service" options="" />
+      <module name="user-service" options="" />
+      <module name="wallet-service" options="" />
+    </option>
+  </component>
+</project>
